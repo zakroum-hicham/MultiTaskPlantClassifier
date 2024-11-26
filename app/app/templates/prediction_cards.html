@@ -1,0 +1,23 @@
+
+<div class="flex items-center" style="justify-content: space-around;height: 90%;">
+    
+<form action="/api/v1/classifier/v1" id="classifierForm" method="POST" enctype="multipart/form-data">
+
+    <div class="p-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" style="margin-left: 25px;margin-right: 25px;">
+        <label style="color:#16a34a" class="block mb-2 text-2xl font-medium text-blue-700 dark:text-white" for="classifier">Plant Leaf Disease Classifier</label>
+        <input class="block w-full mb-5 text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="classifier"  name="image" type="file">
+        
+        <div class="p-5">
+            
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Check Your Plant's Health!</h5>
+            </a>
+        <p class="mb-5 font-normal text-gray-700 dark:text-gray-400">Upload an image of a tomato, potato, or pepper leaf to diagnose its health status and detect potential diseases.</p>
+        <a href="#" id="submit"  class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Predict
+        </a>
+    </div>
+    </div>
+
+</form>
+</div>
